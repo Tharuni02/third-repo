@@ -5,58 +5,60 @@
 		  <title>Examsdaily</title> 
 		  <meta name="robots" content="noindex,nofollow">
    <b-container>
-   <div>
-   <b-row>
-   <b-col cols="5"offset="4">
-   <div  class="mt-5">
-   <form>
-     <b-input-group size="lg" class="mb-2">
-      <b-input-group-prepend is-text>
+  <b-row><b-col cols="md-5" offset="md-4">
+   <b-form>
+    <div class="input-group mt-5">
+	<b-input-group-prepend is-text>
         <b-icon font-scale="2.5" icon="person-fill" animation="fade" 
 		class="rounded-circle bg-danger p-2" variant="light"></b-icon>
       </b-input-group-prepend>
-      <b-form-input type="text" placeholder="Name" id="Name" Name="Name"></b-form-input>
-    </b-input-group><br>
+  <b-form-input type="text" class="form-control input-lg" placeholder="Name" id="Name" Name="Name"></b-form-input>
+    </div><br><br>
 	
-	  <b-input-group size="lg" class="mb-2">
-      <b-input-group-prepend is-text>
+    <div class="input-group">
+	<b-input-group-prepend is-text>
         <b-icon font-scale="2.5" icon="envelope" animation="fade"
 		class="rounded-circle bg-danger p-2" variant="light"></b-icon>
       </b-input-group-prepend>
-      <b-form-input type="text" placeholder="Email Address" id="Email" Name="Email"></b-form-input>
-    </b-input-group><br>
+<b-form-input type="text" class="form-control input-lg" 
+placeholder="Email Address" id="Email" Name="Email"></b-form-input>
+
+    </div><br><br>
 	
-	  <b-input-group size="lg" class="mb-2">
-      <b-input-group-prepend is-text>
+	  <div class="input-group">
+	<b-input-group-prepend is-text>
         <b-icon font-scale="2.5" icon="telephone-fill" class="rounded-circle bg-danger p-2" variant="light"
 		animation="cylon-vertical"></b-icon>
       </b-input-group-prepend>
-      <b-form-input type="number" placeholder="Mobile Number" id="Mobile" Name="Mobile"></b-form-input>
-    </b-input-group><br>
+   <b-form-input type="number" class="form-control input-lg"
+   placeholder="Mobile Number" id="Mobile" Name="Mobile"></b-form-input>
+    </div><br><br>
 	
-	  <b-input-group size="lg" class="mb-2">
-      <b-input-group-prepend is-text>
+	  <div class="input-group">
+	<b-input-group-prepend is-text>
         <b-icon  font-scale="2.5" icon="lock-fill" animation="fade"
 		class="rounded-circle bg-danger p-2" variant="light"></b-icon>
       </b-input-group-prepend>
-      <b-form-input type="password" placeholder="PassWord" id="Password" Name="Password"></b-form-input>
-    </b-input-group><br>
+      <b-form-input type="password" class="form-control input-lg" 
+	  placeholder="PassWord" id="Password" Name="Password"></b-form-input>
+    </div><br><br>
 	
-	  <b-input-group size="lg" class="mb-2">
-      <b-input-group-prepend is-text>
+	  <div class="input-group">
+	<b-input-group-prepend is-text>
         <b-icon font-scale="2.5" icon="geo-alt" animation="fade"
 		class="rounded-circle bg-danger p-2" variant="light"></b-icon>
       </b-input-group-prepend>
-      <b-form-input type="text" placeholder="Nation" id="Nation" Name="Nation"></b-form-input>
-    </b-input-group><br>
-	<b-row><b-col offset="3">
+      <b-form-input type="text" class="form-control input-lg" 
+	  placeholder="Nation" id="Nation" Name="Nation"></b-form-input>
+    </div><br><br>
+   </b-form> </b-col>
+  </b-row>   
+	<b-row><b-col offset="5">
 	 <b-button  size="lg" class="mb-5" @click="demoAlert">Submit</b-button></b-col>
 	</b-row>
-   </form>
-   </div>
-   </b-col>
-   </b-row>
-   </div>
+   
+   
+  
    </b-container>
   </div>
 </template>
@@ -108,5 +110,6 @@ data(){
 
  
   } 
+
 
 </style>

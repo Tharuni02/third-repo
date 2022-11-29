@@ -3,7 +3,7 @@
   
  
   
-   
+ <!-- <study/> -->
   <First />
   
   <Logform/>
@@ -25,6 +25,7 @@
   import Logform from './components/Logform.vue'
   import AboutView from './components/AboutView.vue'
   import Help from './components/Help.vue'
+   import study from './components/study.vue'
 export default {
 
   
@@ -34,7 +35,8 @@ export default {
    Last,
    Logform,
    AboutView,
-   Help
+   Help,
+   study
    
    }
 }
