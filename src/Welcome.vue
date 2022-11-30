@@ -5,12 +5,13 @@
   
  <!-- <study/> -->
   <First />
+   <router-view/>
+   <pathhome/>
   
-  <Logform/>
-  
+ 
   <Last/>
-  <AboutView/>
-  <Help/>
+ 
+
   
   
   
@@ -19,24 +20,19 @@
 </template>
 
 <script>
- import Swal from 'sweetalert2'
+ //import Swal from 'sweetalert2'
+
  import First from './components/First.vue'
- import Last from './components/Last.vue'
-  import Logform from './components/Logform.vue'
-  import AboutView from './components/AboutView.vue'
-  import Help from './components/Help.vue'
-   import study from './components/study.vue'
-export default {
+ import pathhome from './components/pathhome.vue'
+ import Last from './components/Last.vue'  
+ export default {
 
   
   components : {
    
    First,
-   Last,
-   Logform,
-   AboutView,
-   Help,
-   study
+   pathhome,
+   Last
    
    }
 }

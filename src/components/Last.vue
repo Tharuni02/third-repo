@@ -29,7 +29,7 @@ export default{
    bottom: 0;
    width: 100%;
    height : 300px;
-   background: linear-gradient(to bottom left, #DC143C 50%, #A52A2A 50%);
+   background-color:  #4B0082;
    background-size: 100% 100%;
    color: white;
    text-align: center;

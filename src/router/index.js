@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 //import HelloWorld from '@/components/HelloWorld'
-import Aboutview from '@/components/Aboutview.vue'
-import Help from '@/components/Help.vue'
+import home from '@/views/home'
+import Aboutview from '@/views/Aboutview'
+import Logform from '@/views/Logform'
+import Help from '@/views/Help'
 
 Vue.use(Router)
 
@@ -14,10 +16,23 @@ export default new Router({
       component: HelloWorld
     } */
 	{
-      path: '/Aboutview',
-      name: 'Aboutview',
-      component: Aboutview
-    },
+		path: '/home',
+		name: 'home',
+		component: home
+		
+	},
+	{
+		path: '/AboutView',
+		name: 'Aboutview',
+		component: Aboutview
+		
+	},
+	{
+		path: '/Logform',
+		name: 'Logform',
+		component: Logform
+		
+	},
 	{	  
 	      path: '/Help',
 		  name: 'Help',
