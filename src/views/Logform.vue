@@ -1,11 +1,12 @@
 <template>
-  <div class="back image-fluid">
+  <div class="">
           <meta charset="UTF-8">
 		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		  <title>Examsdaily</title> 
 		  <meta name="robots" content="noindex,nofollow">
    <b-container>
-  <b-row><b-col cols="md-5" offset="md-4">
+   <b-row> <b-col cols="7">
+  <b-row><b-col cols="md-7" >
    <b-form>
     <div class="input-group mt-5">
 	<b-input-group-prepend is-text>
@@ -13,7 +14,7 @@
 		class="rounded-circle p-2" style="background-color:#4B0082;" variant="light"></b-icon>
       </b-input-group-prepend>
   <b-form-input type="text" class="form-control input-lg" placeholder="Name" id="Name" Name="Name"></b-form-input>
-    </div><br><br>
+    </div><br>
 	
     <div class="input-group">
 	<b-input-group-prepend is-text>
@@ -23,7 +24,7 @@
 <b-form-input type="text" class="form-control input-lg" 
 placeholder="Email Address" id="Email" Name="Email"></b-form-input>
 
-    </div><br><br>
+    </div><br>
 	
 	  <div class="input-group">
 	<b-input-group-prepend is-text>
@@ -32,7 +33,7 @@ placeholder="Email Address" id="Email" Name="Email"></b-form-input>
       </b-input-group-prepend>
    <b-form-input type="number" class="form-control input-lg"
    placeholder="Mobile Number" id="Mobile" Name="Mobile"></b-form-input>
-    </div><br><br>
+    </div><br>
 	
 	  <div class="input-group">
 	<b-input-group-prepend is-text>
@@ -41,7 +42,7 @@ placeholder="Email Address" id="Email" Name="Email"></b-form-input>
       </b-input-group-prepend>
       <b-form-input type="password" class="form-control input-lg" 
 	  placeholder="PassWord" id="Password" Name="Password"></b-form-input>
-    </div><br><br>
+    </div><br>
 	
 	  <div class="input-group">
 	<b-input-group-prepend is-text>
@@ -50,16 +51,21 @@ placeholder="Email Address" id="Email" Name="Email"></b-form-input>
       </b-input-group-prepend>
       <b-form-input type="text" class="form-control input-lg" 
 	  placeholder="Nation" id="Nation" Name="Nation"></b-form-input>
-    </div><br><br>
+    </div><br>
    </b-form> </b-col>
   </b-row>   
-	<b-row><b-col offset="5">
+	<b-row><b-col offset="1">
 	 <b-button  size="lg" class="mb-5" @click="demoAlert" style="background-color: #4B0082;">
 Submit</b-button></b-col>
 	</b-row>
    
-   
+  </b-col>
+  <b-col class="mt-3"  cols="4">
+  <img src="../assets/ed.png" style="max-width:20rem;"/>
+  <h5>No.1 Online Teaching Hub To Give You Guys The Perfect Guidence.SignIn Here To Connect With Us.</h5>
+  </b-col>
   
+</b-row>  
    </b-container>
   </div>
 </template>

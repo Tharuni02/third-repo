@@ -8,9 +8,12 @@
 <p class="mb-5" style="text-align:center;"> MATHY EXAMSDAILY PRIVATE LIMITED<br> is your resource 
 		   hub for Current Affairs,<br> General Knowledge, Exam Notifications, Competitive Exam preparation,
 		   etc.<br> We provide you with the latest notifications, study materials and results from the career industry.
-</p><hr>		   
+</p><hr>
+ <b-row class="mt-5 mb-5"><b-col offset="4">	
+	<a href="#" class="btn btn-lg" style="background-color:#4B0082; color:white;">Get Our Course & Test Packages </a>   
+ </b-col></b-row>
 <b-row><b-col>
-<div class="card mt-5" style="max-width: 15rem">
+<div class="card mt-5" style="max-width: 25rem">
     <img class="card-img-top" src="../assets/main.jpg" alt="Card image" style="width:100%">
     <div class="card-body">
       <h4 class="card-title">Our Courses</h4><hr>
@@ -20,7 +23,7 @@
     </div>
   </div>
  </b-col><b-col> 
-  <div class="card mt-5" style="max-width: 15rem">
+  <div class="card mt-5" style="max-width: 25rem">
     <img class="card-img-top" src="../assets/top2.jpg" alt="Card image" style="width:100%">
     <div class="card-body">
       <h4 class="card-title">Our Courses</h4><hr>
@@ -31,7 +34,7 @@
   </div></b-col>
    
    <b-col> 
-  <div class="card mt-5" style="max-width: 15rem">
+  <div class="card mt-5" style="max-width: 25rem">
     <img class="card-img-top" src="../assets/abt.jpg" alt="Card image" style="width:100%">
     <div class="card-body">
       <h4 class="card-title">Our Courses</h4><hr>
@@ -75,7 +78,7 @@ background-attachment : fixed;
     border-radius: 4px;
     background: #fff;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   padding: 14px 80px 18px 36px;
   cursor: pointer;
 }
