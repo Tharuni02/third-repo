@@ -7,7 +7,8 @@
 		  <meta name="robots" content="noindex,nofollow">
  
     
-		   <b-navbar class="sticky-top" toggleable="lg"  type="dark"  >
+	    
+		   <b-navbar toggleable="lg"  type="dark"  >
 		      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 		     <div class="img-fluid">  
 			    <b-navbar-brand> <img src="../assets/ed.png" style= "margin-left:20px; width:100px; height:80px;"/><br>
@@ -38,9 +39,22 @@ export default{
 <style>
 .bg1{
 background-color :  #4B0082;
-  background-attachment: fixed;
+  
 background-size: 100% 100%;
+ 
 }
 
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+a:hover{
+
+color : black;
+background-color : white;
+ }
 </style>

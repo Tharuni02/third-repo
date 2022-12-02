@@ -12,6 +12,7 @@
  <b-row class="mt-5 mb-5"><b-col offset="4">	
 	<a href="#" class="btn btn-lg" style="background-color:#4B0082; color:white;">Get Our Course & Test Packages </a>   
  </b-col></b-row>
+ 
 <b-row><b-col>
 <div class="card mt-5" style="max-width: 25rem">
     <img class="card-img-top" src="../assets/main.jpg" alt="Card image" style="width:100%">
@@ -34,7 +35,10 @@
   </div></b-col>
    
    <b-col> 
-  <div class="card mt-5" style="max-width: 25rem">
+  <div class="card 
+  
+  
+  mt-5" style="max-width: 25rem">
     <img class="card-img-top" src="../assets/abt.jpg" alt="Card image" style="width:100%">
     <div class="card-body">
       <h4 class="card-title">Our Courses</h4><hr>
@@ -45,6 +49,43 @@
   </div></b-col>
   
   </b-row>
+  
+  <b-row class="g-0"><b-col cols="5">
+  <div class="card mt-5" style="padding: 0px 0px 0px 0px;">
+    <img class="card-img-top" src="../assets/ref1.jpg" alt="Card image" style="width:100%">    
+    
+  </div>   </b-col> &nbsp;&nbsp;&nbsp;&nbsp;
+  
+   <b-col cols="5" class="g-0">
+  <div class="card mt-5" style="padding: 0px 0px 0px 0px;">
+    <img class="card-img-top" src="../assets/ref2.jpg" alt="Card image" style="width:100%">    
+  
+  </div>   </b-col> </b-row>&nbsp;&nbsp;&nbsp;
+  
+   <b-row><b-col>
+  <div class="card mt-5" style="max-width: 25rem">
+    <img class="card-img-top" src="../assets/ref3.jpg" alt="Card image" style="width:100%">    
+   
+  </div>   </b-col>&nbsp;&nbsp;&nbsp;
+  
+   <b-col>
+  <div class="card mt-5" style="max-width: 25rem">
+    <img class="card-img-top" src="../assets/ref4.jpg" alt="Card image" style="width:100%">    
+   
+  </div>   </b-col></b-row>
+  
+   <b-row><b-col>
+  <div class="card mt-5" style="max-width: 25rem">
+    <img class="card-img-top" src="../assets/ref5.jpg" alt="Card image" style="width:100%">    
+   
+  </div>   </b-col>
+  
+   <b-col>
+  <div class="card mt-5" style="max-width: 25rem">
+    <img class="card-img-top" src="" alt="Card image" style="width:100%">    
+    
+  </div>   </b-col></b-row>
+  
 </b-container>
 
 </div>
@@ -64,7 +105,7 @@ export default{
   background-color: white;
   background-repeat : no-repeat;
   width : 100%;
-  height : 1200px;
+  height : 2700px;
   background-size: 100% 100%;
 background-attachment : fixed;  
   } 
